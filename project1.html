@@ -8,22 +8,23 @@
             content = "A Heartfelt Tribute Dedicated to Celebrating the Incredible Woman Who Has Shaped My Life"
          />
     <meta name="keywords" content ="mom, love, family, appreciation" /> 
+    <link rel="stylesheet" href="css/layout.css">
  </head>
  <body>
    <header>
       <nav>
-         <a href="https://www.smithsonianmag.com/science-nature/14-fascinating-facts-about-moms-180977677/">Facts About Motherhood</a>
-         <a href="https://www.merriam-webster.com/dictionary/mother">Definition</a>
+         <a href="https://www.merriam-webster.com/dictionary/mother" class="leftNav">Dictionary</a>
+         <a href="https://www.womansday.com/relationships/family-friends/g2316/mothers-day-poems-quotes/">Poem</a>
+         <a href="#images">Images</a>
       </nav>
-   </header>
     <h1><u>My Mom</u></h1>
-    <p>
+    <p class="black">
      <strong> This site is a tribute to my mom, highlighting her boundless dedication and the many ways she has impacted my life. It's a place to express my deep appreciation for all she does and the love she continually shows</strong>
     </p>
-  <header>
+   </header>
   <main>
-    <section id="Things I Admire About My Mom">
-      <h2>Things I Admire About My Mom</h2> 
+    <section id="ThingsIAdmireAboutMyMom">
+      <h2> Things I Admire About My Mom</h2> 
       <p>
         <em> My mothers unyielding support, incredible work ethic and her ability to find joy make her the amazing person she is.</em>
       </p>
@@ -34,7 +35,7 @@
    </section>
    <section>
       <h3>My Mother's Favorite Activites</h3>
-      <ol>
+      <ol class="centernumbers">
          <li>Cooking, Baking</li>
          <li>Exercising </li>
          <li>Spending Time With Loved Ones</li>
@@ -43,30 +44,19 @@
    <section>
       <h3>Favorite Foods</h3>
           <!--Below will be the unordered list above is the ordered list we will tell the differnce becasue the above has numbers and below has bullets.-->
-      <ul>
+      <ul> 
          <li>Italian</li>
          <li>Mediterranean</li>
          <li>Japanese</li>
       </ul>
    </section>
-   <section>
-      <h3>Gallery of My Amazing Mother</h3>
-      <p>
-         <img
-         src="images/IMG_0983.jpg"
-         height="200"
-         />
-         <img
-         src="images/IMG_1946.jpg"
-         height="200"
-         />
-         <img
-         src="images/IMG_0985.jpg"
-         height="200"
-         />
-      </p>
-   </section>
+      <h3 id="images">Gallery of My Amazing Mother</h3>
+      <section class="filter"> 
+         <img class="imagegallery" src= "images/IMG_0983.jpg" alt="picture of my mom and I"/> 
+         <img class="imagegallery filter" src="images/IMG_1946.jpg" alt="picture of my mom and my sisters when we were little" />
+         <img class="imagegallery" src="images/IMG_0985.jpg" alt="picture of my mom and I"/>
+      </section>
    </main>
-   </header>
+   <footer></footer>
  </body>
 </html>
