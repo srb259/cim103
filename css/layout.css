@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+body{
+    background-color: hsl(330, 100%, 71%);
+}
+header{
+    background-color: rgb(241, 162, 230);
+    background-image: url('../images/hearts.jpg'); width: 960px;
+    background-size: cover;
+    background-position: bottom;
+    height: 200px;
+    padding: 20px;
+    border-width: 5px;
+    border-color: rgba(14, 12, 12, 0.916);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    margin-bottom: 50px;
+}
+main{
+    background-color: lavenderblush;
+    width: 970px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto; 
+    margin-bottom: 50px;
+    text-align: center;
+}
+footer{
+    background-color: lavenderblush;
+    width: 970px;
+    height:100px;
+    padding: 20px 20px 20px 20px;
+    border-width: 10px;
+    border-top-color: rgb(34, 29, 32);
+    border-style: dashed;
+    margin: 0 auto;
+}
+h1{
+    color: rgb(51, 48, 48);
+    text-align: center;
+    font-family: cursive;
+
+}
+h2{
+        color: rgb(17, 16, 16);
+        text-align: center;
+        font-family: "Arial",sans-serif;
+}
+p{
+    color: hotpink;
+    line-height: 30px;
+    text-align: center;
+}
+.black{
+    color:  black;
+}
+
+li{
+    font-weight: bold;
+}
+ul li{
+    color: hotpink;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+}
+ol li{
+    color:hotpink;
+    font-weight: lighter;
+    align-items: center;
+}
+a{
+    text-decoration: none
+}
+    nav{
+        background-color: rgba(0,0,0,0.75);
+        width: 400px;
+        padding: 10px;
+        margin: 0 auto;
+}
+nav a{
+    font-size: 20px;
+    color: hotpink;
+    margin-right: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgb(237, 228, 228);
+}
+
+.leftNav{
+    margin-left: 55px;
+}
+.imagegallery{
+        width: 300px;
+        height: 300px;
+        border-style: solid;
+        border-color: hotpink;
+        border-width: 10px 10px 10px 10px;
+
+
+}   
+.filter
+{
+    filter: blur(3.5px);
+}
+.centernumbers 
+{
+    width: 400px;
+    margin: 0 auto;
+}
